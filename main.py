@@ -26,6 +26,7 @@ def main():
             if key.isalpha():
                 print(f"The", "'"+key+"'", "character was found", sorted_character_counts[key], "times")
             
+        print("--- End report ---")
         return
     
 main()
